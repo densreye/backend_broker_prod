@@ -352,8 +352,8 @@ class Plan(models.Model):
     fecha_modificado = models.DateField(blank=True, null=True)
     modificado_por_usuario = models.CharField(max_length=45, blank=True, null=True)
     modificado_id_usuario = models.IntegerField(blank=True, null=True)
-
-    #campos adicionales
+    
+     #campos adicionales
     genero= models.CharField(max_length=50, blank=True, null=True)
     edad_minima= models.CharField(max_length=50, blank=True, null=True)
     edad_maxima= models.CharField(max_length=50, blank=True, null=True)

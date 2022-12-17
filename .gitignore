@@ -6,11 +6,8 @@ __pycache__
 db.sqlite3
 media
 
-**/migrations
-
 # Backup files # 
 *.bak 
-/backend/FILES/
 
 # If you are using PyCharm # 
 # User-specific stuff
